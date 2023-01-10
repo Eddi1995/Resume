@@ -1,0 +1,400 @@
+
+*{
+    /* background-color: black; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: #c1c1c2ad;
+  }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 385px;
+    margin-bottom: 0;
+    margin-left: 385px;
+    margin-top: 50px;
+    box-shadow: 21px 21px 0px #545252;
+        height: 861px;
+}
+main >:first-child{
+  
+    flex: 1;
+    text-align: center;
+    background-color: black;
+    height: 861px;
+}
+main >:first-child .subEducation{
+    display: none;
+}
+.subTechSkill li .progress{
+    width: 90%;
+}
+.subPortfolio{
+    display: none;
+}
+main >div:first-child .list >li:nth-child(4):hover .subPortfolio{
+  display: block;
+}
+.subContact{
+    display: none;
+    list-style: none;
+}
+main >div:first-child .list >li:nth-child(5):hover .subContact{
+  display: block;
+}
+.list >li:nth-child(3):hover .subEducation{
+   display: block;
+   list-style: none;
+   padding: 0;
+   background-color: black;
+   color: orange;
+}
+main >:nth-child(2){
+    flex: 1;
+}
+main >:nth-child(3){
+    flex: 1;
+    background-color: rgb(53 50 48 / 94%);
+    height: 861px;
+}
+main >:nth-child(3) hr{
+   color: whitesmoke;
+   width: 80px;
+   margin-left: 20px;
+   font-weight: bolder;
+   height: 5px;
+   border-radius: 10px;
+}
+main >:first-child img{
+    height: 128px;
+    border-radius: 130px;
+    background-size: cover;
+    box-shadow: 0 0px 9px whitesmoke;
+    position: relative;
+    top: 30px;
+}
+main >:nth-child(2) img{
+    height: 861px;
+    z-index: -1;
+}
+
+.texting{
+    position: relative;
+    top: -851px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color:whitesmoke;
+    padding: 10px;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.texting hr{
+    width: 100px;
+    font-weight: bold;
+}
+.list{
+    list-style: none;
+    color: whitesmoke;
+    line-height: 45px;
+    padding: 15px;
+    text-align: initial;
+    position: relative;
+    top: 28px;
+}
+
+.list a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+.list a:hover{
+    color: black;
+}
+.list li:hover{
+    background-color: orange;
+    border-radius: 2px;
+    transition: .5s;
+    color: black;
+}
+.subTechSkill{
+    display: none; 
+}
+.list >li:nth-child(2):hover .subTechSkill{
+    display: block;
+}
+main >:first-child h5{
+  color: rgb(241, 225, 225);
+  position: relative;
+  z-index: 2;
+  top: 45px;
+}
+main >:first-child hr{
+    color: whitesmoke;
+    position: relative;
+    top: 42px;
+  }
+  .fontAwesome{
+   display: flex;
+    text-align: initial;
+    position: relative;
+    top: 46px;
+    left: 76px;
+  }
+  .data{
+    color: whitesmoke;
+    padding: 15px;
+  }
+  .data h5{
+    font-size: 14px;
+    border-bottom: 1px solid whitesmoke;
+    padding: 5px;
+  }
+  main >:nth-child(3) .ProfessionalHeading h4{
+    color: orange;
+    padding: 10px;
+    font-size: 18px;
+ }
+ main >:nth-child(3) .ProfessionalHeading h6{
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 14px;
+    
+ }
+ main >:nth-child(3) section{
+     text-align: center;
+  }
+ main >:nth-child(3) .qr{
+   height: 90px;
+   padding: 10px;
+ }
+ .btn{
+    color: black;
+    background-color: orange;
+    font-size: 12px;
+    width: 177px;
+    width: 210px;
+ }
+ 
+ 
+  @media only screen and (max-device-width:600px){   
+    body{
+        background-color: white;
+      }
+main {
+    display: block;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 0px;
+    margin-top: 0;
+    box-shadow: none;
+    height: none;
+}
+.fontAwesome {
+    display: flex;
+    position: relative;
+    top: 46px;
+    left: 0;
+    justify-content: space-evenly;
+  }
+  main >:nth-child(2) img {
+    height: 600px;
+    width: 100%;
+  }
+  .texting {
+    position: relative;
+    top: -540px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 100px;
+    font-weight: bolder;
+}
+main >:nth-child(2) {
+    height: 600px;
+
+}
+
+main >:nth-child(3) .ProfessionalHeading h6 {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+main >:nth-child(3) .qr {
+    height: 130px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn {
+    color: black;
+    background-color: orange;
+    font-size: 14px;
+    width: 177px;
+    width: 247px;
+}
+
+}
+
+@media only screen and (min-device-width:601px) and (max-device-width:1100px){
+    body{
+        background-color: white;
+      }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-bottom: 0;
+        margin-left: 0px;
+        margin-top: 0;
+        box-shadow: none;
+        height: none;
+    }
+    .fontAwesome {
+        display: flex;
+        position: relative;
+        top: 46px;
+        left: 0;
+        justify-content: space-evenly;
+      }
+      main >div:nth-child(2) {
+        height: 900px;
+    }
+    main >:nth-child(2) img {
+        height: 861px;
+        width: 100%;
+    }
+      .texting {
+        position: relative;
+        top: -800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 100px;
+        font-weight: bolder;
+    }
+    main >:nth-child(2) {
+        height: 600px;
+    
+    }
+    
+    main >:nth-child(3) .ProfessionalHeading h6 {
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 12px;
+        text-align: justify;
+    }
+    main >:nth-child(3) .qr {
+        height: 105px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .btn {
+        color: black;
+        background-color: orange;
+        font-size: 14px;
+        width: 247px;
+    }
+    main >:first-child{
+  
+        flex: 20%;
+        text-align: center;
+        background-color: black;
+        height: 861px;
+    }
+   
+    main >:nth-child(3){
+        flex: 20%;
+        background-color: rgb(53 50 48 / 94%);
+        height: 861px;
+    }
+    main >div:nth-child(2) {
+       
+        flex: 40%;
+    }
+
+
+
+}
+
+@media only screen and (min-device-width:1101px) and (max-device-width:1600px){
+  body{
+    background-color: #c1c1c2;
+  }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 200px;
+        margin-bottom: 0;
+        margin-left: 200px;
+        margin-top: 100px;
+        box-shadow: 21px 21px 0px #c1c1c2ad;
+        height: 861px;
+    }
+    .fontAwesome {
+        display: flex;
+        position: relative;
+        top: 46px;
+        left: 0;
+        justify-content: space-evenly;
+      }
+      main >div:nth-child(2) {
+        height: 900px;
+        flex: 40%;
+    }
+    main >div:nth-child(2) img {
+        height: 861px;
+        width: 100%;
+    }
+      .texting {
+        position: relative;
+        top: -800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 100px;
+        font-weight: bolder;
+    }
+    main >:first-child{
+  
+        flex: 20%;
+        text-align: center;
+        background-color: black;
+        height: 861px;
+    }
+   
+    main >:nth-child(3){
+        flex: 20%;
+        background-color: rgb(53 50 48 / 94%);
+        height: 861px;
+    }
+   
+    
+    main >:nth-child(3) .ProfessionalHeading h6 {
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 12px;
+        text-align: justify;
+    }
+    main >:nth-child(3) .qr {
+        height: 105px;
+        padding: 10px;
+    }
+    .btn {
+        color: black;
+        background-color: orange;
+        font-size: 14px;
+        width: 247px;
+    }
+
+
+}
