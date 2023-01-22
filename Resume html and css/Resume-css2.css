@@ -155,6 +155,7 @@ main >:first-child hr{
     color: orange;
     padding: 10px;
     font-size: 18px;
+    text-align: center;
  }
  main >:nth-child(3) .ProfessionalHeading h6{
     color: whitesmoke;
@@ -176,6 +177,13 @@ main >:first-child hr{
     width: 177px;
     width: 210px;
  }
+  .ProfessionalHeadingList li{
+    color: whitesmoke;
+    padding: 11px;
+    font-size: 12px;
+    text-align: justify;
+    margin-top: -25px;
+}
  
  
   @media only screen and (max-device-width:600px){   
@@ -219,12 +227,6 @@ main >:nth-child(2) {
 
 }
 
-main >:nth-child(3) .ProfessionalHeading h6 {
-    color: whitesmoke;
-    padding: 10px;
-    font-size: 14px;
-    text-align: justify;
-}
 main >:nth-child(3) .qr {
     height: 130px;
     padding: 10px;
@@ -237,6 +239,7 @@ main >:nth-child(3) .qr {
     width: 177px;
     width: 247px;
 }
+
 
 }
 
@@ -284,12 +287,12 @@ main >:nth-child(3) .qr {
         height: 600px;
     
     }
-    
-    main >:nth-child(3) .ProfessionalHeading h6 {
+    .ProfessionalHeadingList li{
         color: whitesmoke;
-        padding: 10px;
-        font-size: 12px;
+        padding: 11px;
+        font-size: 10px;
         text-align: justify;
+        margin-top: -25px;
     }
     main >:nth-child(3) .qr {
         height: 105px;
@@ -319,8 +322,6 @@ main >:nth-child(3) .qr {
        
         flex: 40%;
     }
-
-
 
 }
 
@@ -377,13 +378,21 @@ main >:nth-child(3) .qr {
         background-color: rgb(53 50 48 / 94%);
         height: 861px;
     }
+    .ProfessionalHeadingList li{
+        color: whitesmoke;
+        padding: 11px;
+        font-size: 10px;
+        text-align: justify;
+        margin-top: -25px;
+    }
    
     
-    main >:nth-child(3) .ProfessionalHeading h6 {
+    .container li{
         color: whitesmoke;
-        padding: 10px;
+        padding: 15px;
         font-size: 12px;
         text-align: justify;
+        margin-top: -25px;
     }
     main >:nth-child(3) .qr {
         height: 105px;
